@@ -6,6 +6,14 @@ _A list of my commonly used Git commands_
 *If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
+### The most useful ones
+
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git push` | Push changes to remote repository (remembered branch) |
 
 ### Getting & Creating Projects
 
