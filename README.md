@@ -6,6 +6,31 @@ _A list of my commonly used Git commands_
 *If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
+### The most useful ones
+
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+ `git add [file-name.txt]` | Add a file to the staging area (File specific changes) |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git push` | Push changes to remote repository (remembered branch) |
+
+### Different individuals working on same repository
+
+### Scenario: 
+**User1** & **User2** are working on forks of the same repo locally.
+**User2** commits some changes & Updated it to the Master (source) repo.
+
+Purpose:
+User1 wants to pull the latest updates from the master repo to add some changes to it & push to the master repo again.
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote add upstream <Link of the MASTER repo>` | Add the remote master repo before syncing |
+| `git remote -v` | Check the setup of origin & UPSTREAM repos |
+| `git pull upstream master` | pull the latest updates from the Master repo |
+| `git push` | Push changes to remote repository (remembered branch) |
 
 ### Getting & Creating Projects
 
