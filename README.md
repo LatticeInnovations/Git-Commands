@@ -19,7 +19,7 @@ _A list of my commonly used Git commands_
 ### Different individuals working on same repository
 
 ### Scenario: 
-**User1** & **User2** are working on a fork of the same repo locally.
+**User1** & **User2** are working on forks of the same repo locally.
 **User2** commits some changes & Updated it to the Master (source) repo.
 
 Purpose:
