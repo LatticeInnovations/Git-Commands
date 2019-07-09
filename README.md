@@ -16,6 +16,22 @@ _A list of my commonly used Git commands_
 | `git commit -m "[commit message]"` | Commit changes |
 | `git push` | Push changes to remote repository (remembered branch) |
 
+### Different individuals working on same repository
+
+## Scenario: 
+User1 & User2 are working on a fork of the same repo locally.
+User 2 commits some changes & Updated it to the Master (source) repo.
+
+Purpose:
+User1 wants to pull the latest updates from the master repo to add some changes to it & push to the master repo again.
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote add upstream <Link of the MASTER repo>` | Add the remote master repo before syncing |
+| `git remote -v` | Check the setup of origin & UPSTREAM repos |
+| `git pull upstream master` | pull the latest updates from the Master repo |
+| `git push` | Push changes to remote repository (remembered branch) |
+
 ### Getting & Creating Projects
 
 | Command | Description |
